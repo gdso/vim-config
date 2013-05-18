@@ -1,11 +1,14 @@
 #!/bin/bash
 
-mkdir -p ~/.vim/autoload ~/.vim/bundle; \
-curl -Sso ~/.vim/autoload/pathogen.vim \
+VIM_DIR=~/.vim
+#VIM_DIR=/cygdrive/c/Users/Gregory/vimfiles
+
+mkdir -p $VIM_DIR/autoload $VIM_DIR/bundle; \
+curl -Sso $VIM_DIR/autoload/pathogen.vim \
     https://raw.github.com/tpope/vim-pathogen/master/autoload/pathogen.vim
 
 echo cd-ing into  ~/.vim/bundle/
-cd ~/.vim/bundle/
+cd $VIM_DIR/bundle/
 echo deleting contents of ~/.vim/bundle/
 rm -rf *
 
