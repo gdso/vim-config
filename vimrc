@@ -127,3 +127,11 @@ set background=dark
 " search in a singe file. This will confuse latex-suite. Set your grep
 " program to alway generate a file-name.
 set grepprg=grep\ -nH\ $*
+
+if has("gui_running")
+  if has("gui_gtk2")
+    set guifont=Inconsolata\ 12
+  elseif has("gui_win32")
+    set guifont=Consolas:h11:cANSI
+  endif
+endif
