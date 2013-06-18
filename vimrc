@@ -44,6 +44,7 @@ set ruler "line numbers, column number, and % in ruler
 call pathogen#infect()
 syntax on
 filetype plugin indent on
+set encoding=utf-8
 
 " -----------------------
 " LANGUAGES
@@ -53,7 +54,6 @@ filetype plugin indent on
 " let g:erlangManPath='~/local/cellar/erlang-otp/lib/erlang/man'
 let erlang_folding = 1
 let erlang_show_errors = 1
-
 
 " COFFESCRIPT:
 " For folding:
