@@ -33,3 +33,6 @@ git clone git://github.com/majutsushi/tagbar.git
 
 echo 
 git clone git://github.com/mileszs/ack.vim.git
+
+echo
+git clone git://github.com/kien/ctrlp.vim 

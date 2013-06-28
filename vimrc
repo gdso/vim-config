@@ -3,7 +3,7 @@
 " -----------------------
 " UPDATE HISTORY 
 " =======================
-
+" [06/28/2013] Added CtrlP for buffer search
 " [06/19/2012] Added ack.vim
 "              https://github.com/mileszs/ack.vim.git
 " [06/16/2012] Added native clipboard support by:
@@ -44,7 +44,6 @@ set ruler "line numbers, column number, and % in ruler
 call pathogen#infect()
 syntax on
 filetype plugin indent on
-set encoding=utf-8
 
 " -----------------------
 " LANGUAGES
@@ -54,6 +53,7 @@ set encoding=utf-8
 " let g:erlangManPath='~/local/cellar/erlang-otp/lib/erlang/man'
 let erlang_folding = 1
 let erlang_show_errors = 1
+
 
 " COFFESCRIPT:
 " For folding:
@@ -86,6 +86,8 @@ map ! :tabclose<CR>
 map <F5> :set autoread<CR>:checktime<CR>
 vmap 'y "+y
 map 'p "+p
+map \b :CtrlPBuffer<CR>
+map \f :CtrlP .<CR>
 
 " custom commands for date, and removing trailing whitespace
 "map <C-F10> <c-r>=strftime("%m/%d/%Y")<CR>
