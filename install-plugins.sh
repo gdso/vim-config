@@ -36,3 +36,6 @@ git clone git://github.com/mileszs/ack.vim.git
 
 echo
 git clone git://github.com/kien/ctrlp.vim 
+
+echo 
+git clone git://github.com/elixir-lang/vim-elixir.git
