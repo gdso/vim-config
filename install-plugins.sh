@@ -19,7 +19,7 @@ echo
 git clone git://github.com/scrooloose/nerdtree.git
 
 echo 
-git clone git://github.com/jimenezrick/vimerl.git
+#git clone git://github.com/jimenezrick/vimerl.git
 
 echo 
 git clone git://github.com/kchmck/vim-coffee-script.git 
@@ -39,3 +39,12 @@ git clone git://github.com/kien/ctrlp.vim
 
 echo 
 git clone git://github.com/elixir-lang/vim-elixir.git
+
+echo 
+git clone https://github.com/xolox/vim-session.git
+
+echo 
+git clone https://github.com/xolox/vim-misc.git
+
+echo
+git clone https://github.com/chrisbra/csv.vim.git
