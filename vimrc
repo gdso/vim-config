@@ -3,6 +3,7 @@
 " -----------------------
 " UPDATE HISTORY 
 " =======================
+" [08/24/2013] Setting mouse to active and ttymouse
 " [06/28/2013] Added CtrlP for buffer search
 " [06/19/2012] Added ack.vim
 "              https://github.com/mileszs/ack.vim.git
@@ -44,6 +45,9 @@ set ruler "line numbers, column number, and % in ruler
 call pathogen#infect()
 syntax on
 filetype plugin indent on
+
+set mouse+=a " enable mouse pointer by default
+set ttymouse=xterm2 " for dragging support - useful for resizing NERDTree/Tagbar/splits
 
 " -----------------------
 " LANGUAGES
