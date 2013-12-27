@@ -19,10 +19,13 @@ echo
 git clone git://github.com/scrooloose/nerdtree.git
 
 echo 
-#git clone git://github.com/jimenezrick/vimerl.git
+git clone git://github.com/jimenezrick/vimerl.git
 
 echo 
 git clone git://github.com/kchmck/vim-coffee-script.git 
+cd vim-coffee-script
+git checkout tags/v002
+cd ..
 
 echo
 git clone git://github.com/groenewege/vim-less.git

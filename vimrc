@@ -92,6 +92,7 @@ vmap 'y "+y
 map 'p "+p
 map \b :CtrlPBuffer<CR>
 map \f :CtrlP .<CR>
+map \s :NERDTreeFind<CR>
 
 " custom commands for date, and removing trailing whitespace
 "map <C-F10> <c-r>=strftime("%m/%d/%Y")<CR>
