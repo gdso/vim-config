@@ -51,3 +51,6 @@ git clone https://github.com/xolox/vim-misc.git
 
 echo
 git clone https://github.com/chrisbra/csv.vim.git
+
+echo
+git clone https://github.com/pangloss/vim-javascript.git
