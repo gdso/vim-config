@@ -54,3 +54,6 @@ git clone https://github.com/chrisbra/csv.vim.git
 
 echo
 git clone https://github.com/pangloss/vim-javascript.git
+
+echo
+git clone https://github.com/plasticboy/vim-markdown.git
