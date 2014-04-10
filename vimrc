@@ -46,6 +46,8 @@ call pathogen#infect()
 syntax on
 filetype plugin indent on
 
+set encoding=utf-8
+
 set mouse+=a " enable mouse pointer by default
 set ttymouse=xterm2 " for dragging support - useful for resizing NERDTree/Tagbar/splits
 
