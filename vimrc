@@ -41,6 +41,7 @@ set hlsearch "highlighted search
 set incsearch "incremental search
 set number "line numbers
 set ruler "line numbers, column number, and % in ruler
+set cc=80
 "pathogen 
 call pathogen#infect()
 syntax on
@@ -111,8 +112,10 @@ set tags=~/.tags
 
 "colorscheme darkocean 
 "colorscheme koehler 
-colorscheme solarized
 set background=dark
+"let g:solarized_termcolors=256
+let g:solarized_termtrans=1
+colorscheme solarized
   
 "======================
 " vim yankring PLUGIN
