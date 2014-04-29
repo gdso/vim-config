@@ -42,6 +42,7 @@ set incsearch "incremental search
 set number "line numbers
 set ruler "line numbers, column number, and % in ruler
 set cc=80
+set laststatus=2
 "pathogen 
 call pathogen#infect()
 syntax on

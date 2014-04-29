@@ -57,3 +57,6 @@ git clone https://github.com/pangloss/vim-javascript.git
 
 echo
 git clone https://github.com/plasticboy/vim-markdown.git
+
+echo
+git clone https://github.com/bling/vim-airline
