@@ -41,17 +41,19 @@ set hlsearch "highlighted search
 set incsearch "incremental search
 set number "line numbers
 set ruler "line numbers, column number, and % in ruler
-set cc=80
-set laststatus=2
-"pathogen 
+set cc=80 " ruler for 80 characters
+set encoding=utf-8
+set mouse+=a " enable mouse pointer by default
+set ttymouse=xterm2 " for dragging support - useful for resizing NERDTree/Tagbar/splits
+
+"Pathogen setup:
 call pathogen#infect()
 syntax on
 filetype plugin indent on
 
-set encoding=utf-8
-
-set mouse+=a " enable mouse pointer by default
-set ttymouse=xterm2 " for dragging support - useful for resizing NERDTree/Tagbar/splits
+"Airline
+set laststatus=2
+let g:airline_theme='base16'
 
 " -----------------------
 " LANGUAGES
