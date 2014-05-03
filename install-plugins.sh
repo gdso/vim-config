@@ -4,7 +4,7 @@ VIM_DIR=~/.vim
 #VIM_DIR=/cygdrive/c/Users/Gregory/vimfiles
 
 mkdir -p $VIM_DIR/autoload $VIM_DIR/bundle; \
-curl -Sso $VIM_DIR/autoload/pathogen.vim \
+curl -LSso $VIM_DIR/autoload/pathogen.vim \
     https://raw.github.com/tpope/vim-pathogen/master/autoload/pathogen.vim
 
 echo cd-ing into  ~/.vim/bundle/
