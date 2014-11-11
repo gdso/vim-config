@@ -106,7 +106,7 @@ map \s :NERDTreeFind<CR>
 imap <F4> <C-R>=strftime("%m/%d/%Y")<CR><Esc>
 imap <F4><F4> <C-R>=strftime("%m/%d/%Y %I:%M %p")<CR><Esc>
 "map t :. s/^\(.\)$/TODO\1/
-map t :. s/\(^.*\)TODO/\1DONE/
+"map t :. s/\(^.*\)TODO/\1DONE/
 "iab idate <c-r>=strftime("%m/%d/%Y")<cr>
 command RemoveTrailingWhitespace :%s/ \+$//
 
