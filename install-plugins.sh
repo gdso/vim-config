@@ -60,3 +60,12 @@ git clone https://github.com/plasticboy/vim-markdown.git
 
 echo
 git clone https://github.com/bling/vim-airline
+
+echo
+git clone https://github.com/jceb/vim-orgmode.git
+
+echo
+git clone git://github.com/tpope/vim-speeddating.git
+
+echo
+git clone git clone git://github.com/tpope/vim-fugitive.git

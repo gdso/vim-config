@@ -67,13 +67,13 @@ let erlang_show_errors = 1
 
 " COFFESCRIPT:
 " For folding:
-au BufNewFile,BufReadPost *.coffee setl foldmethod=indent foldenable foldlevel=2
+au BufNewFile,BufReadPost *.coffee setl foldmethod=indent foldenable foldlevel=2 foldcolumn=5
 " For indentation:
 au BufNewFile,BufReadPost *.coffee setl shiftwidth=2 expandtab tabstop=2
 
 " TODO FILES:
 " For folding:
-au BufNewFile,BufReadPost todo.txt setl foldmethod=indent nofoldenable
+au BufNewFile,BufReadPost todo.txt setl foldmethod=indent nofoldenable foldcolumn=5
 " For indentation:
 au BufNewFile,BufReadPost todo.txt setl shiftwidth=2 expandtab tabstop=2
 
