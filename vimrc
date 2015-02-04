@@ -90,8 +90,8 @@ map <C-t> :tabnew<CR>
 map <C-b> :bnext<CR>
 map <S-C-b> :bprevious<CR>
 map s :w<CR>
-map 1 :tabprevious<CR>
-map 2 :tabnext<CR>
+map <C-k> :tabprevious<CR>
+map <C-j> :tabnext<CR>
 map ! :tabclose<CR>
 map <F5> :set autoread<CR>:checktime<CR>
 vmap 'y "+y
@@ -149,6 +149,6 @@ if has("gui_running")
   elseif has("gui_win32")
     set guifont=Consolas:h11:cANSI
   elseif has("gui_macvim")
-    set guifont=Menlo:h13
+    set guifont=Menlo:h14
   endif
 endif
