@@ -72,3 +72,6 @@ git clone git://github.com/tpope/vim-fugitive.git
 
 echo
 git clone git://github.com/dkprice/vim-easygrep
+
+echo
+git clone git://github.com/nathanaelkane/vim-indent-guides.git

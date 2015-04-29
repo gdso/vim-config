@@ -90,8 +90,8 @@ map <C-t> :tabnew<CR>
 map <C-b> :bnext<CR>
 map <S-C-b> :bprevious<CR>
 map s :w<CR>
-map - :tabprevious<CR>
-map = :tabnext<CR>
+map [ :tabprevious<CR>
+map ] :tabnext<CR>
 map ! :tabclose<CR>
 map <F5> :set autoread<CR>:checktime<CR>
 vmap 'y "+y
