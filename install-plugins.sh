@@ -62,6 +62,9 @@ echo
 git clone https://github.com/bling/vim-airline
 
 echo
+git clone https://github.com/vim-airline/vim-airline-themes
+
+echo
 git clone https://github.com/jceb/vim-orgmode.git
 
 echo
